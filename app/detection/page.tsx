@@ -89,7 +89,7 @@ export default function DetectionPage() {
     setResult(null);
 
     try {
-      const response = await fetch("https://rehan-api.stegripe.org/", {
+      const response = await fetch("https://rehan-api.stegripe.org/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
